@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-color: gray;
+}
+.text{
+    text-align: center;
+    padding: 30px;
+    color: beige;
+
+}
+
+.todo {
+    color: beige;
+}
+
+.text-input {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn {
+    background-color: darkcyan;
+    color: beige;
+    border: 1px solid #333;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: beige;
+    color: darkcyan;
+}
